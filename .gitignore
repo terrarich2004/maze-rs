@@ -1,0 +1,23 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Rust / PyO3 binaries
+target/
+*.so
+*.pyd
+*.dylib
+*.dll
+
+# Editors & generated datasets
+.idea/
+.vscode/
+src/gallery/
+src/datasets/images/
+rectangular_mazes_*
